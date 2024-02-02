@@ -29,8 +29,9 @@ function App() {
 
   return (
     <div className="App">
-      <h1> Star Ships </h1>
+      
       <Home starships={starships.results}/>
+
     </div>
   );
 }

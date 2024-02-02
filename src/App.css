@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: black;
 }
 
 .App-logo {
@@ -35,4 +36,18 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.starFont {
+  font-family: Starwars;
+  color: rgb(223, 226, 7);
+  font-size: 4rem;
+  padding: 4rem;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1rem;
+  flex-wrap: wrap;
 }
